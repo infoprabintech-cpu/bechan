@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bechan Patharkat | Personal Website</title>
+<style>
+:root{--blue:#2563eb;--dark:#14213d;--muted:#64748b;--bg:#f6f8fc}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:var(--bg)}header{background:white;box-shadow:0 2px 12px #14213d12;position:sticky;top:0;z-index:2}.nav{max-width:1050px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{font-size:20px;font-weight:800;color:var(--blue);text-decoration:none}.links{display:flex;gap:22px}.links a{color:var(--dark);text-decoration:none;font-size:14px}.links a:hover{color:var(--blue)}.hero{background:linear-gradient(120deg,#172554,#2563eb);color:white;text-align:center;padding:105px 20px}.avatar{width:88px;height:88px;margin:0 auto 22px;border-radius:50%;display:grid;place-items:center;background:#ffffff25;border:2px solid #ffffff75;font-size:34px;font-weight:bold}.hero h1{font-size:clamp(32px,6vw,52px);margin:0 0 14px}.hero p{font-size:18px;opacity:.9;margin:0 0 28px}.btn{display:inline-block;background:white;color:#1d4ed8;padding:13px 24px;border-radius:9px;text-decoration:none;font-weight:700}.container{max-width:900px;margin:auto;padding:0 22px}section.content{padding:66px 0}h2{text-align:center;font-size:29px;margin:0 0 25px}.about{text-align:center;color:#475569;line-height:1.8;max-width:640px;margin:auto}.skills{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}.chip{background:white;border:1px solid #dbe4f0;border-radius:9px;padding:14px 22px;font-weight:600}.contact{background:white;text-align:center;border-radius:18px;padding:35px 22px;box-shadow:0 8px 30px #14213d0b}.contact p{color:var(--muted)}.contact a{color:var(--blue)}footer{text-align:center;background:#101d3b;color:#dbeafe;padding:24px;font-size:14px}@media(max-width:520px){.nav{flex-direction:column}.links{gap:16px}.hero{padding:78px 18px}section.content{padding:50px 0}}
+</style>
+</head>
+<body>
+<header><nav class="nav"><a class="brand" href="#home">Bechan Patharkat</a><div class="links"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav></header>
+<main><section class="hero" id="home"><div class="avatar" aria-label="Bechan initials">BP</div><h1>Hello, I'm Bechan Patharkat</h1><p>Welcome to my personal website.</p><a class="btn" href="#about">About Me →</a></section>
+<section class="content" id="about"><div class="container"><h2>About Me</h2><p class="about">Hi! My name is Bechan Patharkat. This is my personal website, where you can learn more about me. I'm excited to share my journey, interests, and future projects here.</p></div></section>
+<section class="content" id="skills"><div class="container"><h2>My Interests</h2><div class="skills"><div class="chip">💻 Technology</div><div class="chip">📚 Learning</div><div class="chip">🎨 Creativity</div></div></div></section>
+<section class="content" id="contact"><div class="container"><div class="contact"><h2>Contact Me</h2><p>Want to get in touch? Contact details can be added here.</p><a href="mailto:your-email@example.com" id="email">Add your email address</a></div></div></section></main>
+<footer>© <span id="year"></span> Bechan Patharkat. All rights reserved.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();document.getElementById('email').addEventListener('click',function(e){e.preventDefault();alert('Replace the sample email address in index.html with your own email.');});</script>
+</body></html>
